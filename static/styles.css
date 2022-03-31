@@ -1,0 +1,56 @@
+
+
+.jumbotron{
+   /* background:url('../static/banner2.jpg');
+    background-repeat: no-repeat; */
+    background-color:#B9B9B9;
+    margin-bottom: 0;
+    margin-top: 4%;  /* pushes jumbrotron from top */
+}
+
+.inventory-head{
+     margin-top:14%;  /* pushes jumbrotron from top */
+}
+
+.detail{
+     margin-top:7.5%;  /* pushes jumbrotron from top */
+}
+
+
+.jumbo-text{
+    color: #263957;
+    font-size: 1.4rem;
+}
+
+.jumbo-title{
+    color:#263957;
+}
+
+/* Trending */
+.trending {
+    background-color:#FAFAFA;
+    padding: 2% 2%;
+}
+
+/* feature section */
+#features{
+    padding: 2% 10%;
+}
+
+.fab-color{
+    color: #263957;
+}
+
+h3{
+ font-family: "Montserrat-Bold";
+ font-size: 1.5rem;
+}
+
+P{
+    color: #8f8f8f;
+}
+
+.feature-box{
+    text-align:center;
+    padding: 4%;
+}

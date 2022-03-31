@@ -1,0 +1,55 @@
+{% extends 'base_page.html'%}
+
+{% block content%}
+<div class="row pl-3 detail">
+    <div class="col-6 p-0"> <!-- RIGHT SIDE -->
+        <img alt="" class="img-fluid img-thumbnail" src="/static/download.jpeg" style="width:100%; height: auto">
+        <div class="row pl-3 pr-3 m-o">
+            <div class="col-4 p-0">
+                <img alt="" class="img-fluid img-thumbnail" src="/static/download.jpeg">
+            </div>
+            <div class="col-4  p-0">
+                <img alt="" class="img-fluid img-thumbnail" src="/static/download.jpeg">
+            </div>
+            <div class="col-4  p-0">
+                <img alt="" class="img-fluid img-thumbnail" src="/static/download.jpeg">
+            </div>
+        </div>
+        <section class="Table">
+            <table class="table table-sm table-bordered">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <div class="col-6 bg-light"> <!-- LEFT SIDE --->
+        {% include "/snippets/contact_form.html" %}
+    </div>
+</div>
+
+{% endblock %}

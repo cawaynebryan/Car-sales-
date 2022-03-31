@@ -1,0 +1,3 @@
+http://www.millenniamotors.com/vehicle_listings/all/vehicles?order_by=price&dir=DESC&page_number=2
+
+http://clapat.ro/themes/automarket/blue/car-list.html

@@ -1,0 +1,99 @@
+{% extends "base_page.html" %}
+
+{% block content %}
+
+<!-- jumbotron goes here -->
+{% include "snippets/jumbotron.html" %} <!-- See dir templates/snippets -->
+
+<!-- Carosal goes here -->
+{% include "snippets/carosel.html"  %}  <!-- See dir templates/snippets -->
+
+<section class="trending">
+    <div class="container text-center  ">
+        <h3 class="title-trend">Trending</h3>
+        <p>Our experts road-test selected models.</p>
+    </div>
+    <div class="row mx-4">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card" style="width: 16rem;">
+                <img alt="Card image cap" class="card-img-top"
+                     src="https://th.bing.com/th/id/R.ad804043b5d8ab32c8289b10963bd440?rik=aEXoSwmgrVaZ0w&pid=ImgRaw&r=0">
+                <div class="card-body">
+                    <h5 class="card-title">16 Subaru G4<span class="badge bg-danger"> Sold</span></h5>
+                    <p class="card-text"> 1.5M</p>
+                    <a class="btn btn-primary" href="#">Review Item</a>
+                </div>
+            </div>
+        </div> <!-- end of column -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card" style="width: 16rem;">
+                <img alt="Card image cap" class="card-img-top"
+                     src="https://th.bing.com/th/id/R.ad804043b5d8ab32c8289b10963bd440?rik=aEXoSwmgrVaZ0w&pid=ImgRaw&r=0">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and
+                        card's content.</p>
+                    <a class="btn btn-primary" href="#">Go somewhere</a>
+                </div>
+            </div>
+        </div> <!-- end of column -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card" style="width: 16rem;">
+                <img alt="Card image cap" class="card-img-top"
+                     src="https://th.bing.com/th/id/R.ad804043b5d8ab32c8289b10963bd440?rik=aEXoSwmgrVaZ0w&pid=ImgRaw&r=0">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and
+                        card's content.</p>
+                    <a class="btn btn-primary" href="#">Go somewhere</a>
+                </div>
+            </div>
+        </div> <!-- end of column -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card" style="width: 16rem;">
+                <img alt="Card image cap" class="card-img-top"
+                     src="https://th.bing.com/th/id/R.ad804043b5d8ab32c8289b10963bd440?rik=aEXoSwmgrVaZ0w&pid=ImgRaw&r=0">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and
+                        card's content.</p>
+                    <a class="btn btn-primary" href="#">Go somewhere</a>
+                </div>
+            </div>
+        </div> <!-- end of column -->
+    </div> <!--end of trend row -->
+
+    <!-- Horizontal rule -->
+    <div class="container-fluid text-center">
+        <hr class="border-top-1 border-warning my-5 mx-5">
+    </div>
+
+</section> <!-- End of trending-->
+
+
+
+
+<section id="features">
+    <div class="row">
+        <div class="feature-box col-lg-4">
+            <i aria-hidden="true" class="fa fa-check-circle fa-4x fab-color"></i>
+            <h3>Easy to use</h3>
+            <p>So easy to use even your dog could do it</p>
+        </div>
+        <div class="feature-box col-lg-4 fab-color">
+            <i aria-hidden="true" class="fa fa-users fa-4x"></i>
+            <h3>Elite circle</h3>
+            <p>So easy to use even your dog could do it</p>
+        </div>
+        <div class="feature-box col-lg-4 fab-color">
+            <i aria-hidden="true" class="fa fa-bullseye fa-4x"></i>
+            <h3>Guaranteed to work</h3>
+            <p>So easy to use even your dog could do it</p>
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock %}
+
